@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Medium</title>
+</head>
+<body>
+    <main>
+        <!--navbar-->
+        <div class="navbar">
+            <div class="navbar_logo">
+                <img src="pictures/1_s986xIGqhfsN8U--09_AdA.png" alt="logo_medium">
+            </div>
+            <div class="navbar_icons">
+                <ion-icon class="icon" name="search-outline"></ion-icon>
+                <ion-icon class="icon" name="bookmarks-outline"></ion-icon>
+                <ion-icon class="icon" name="notifications-outline"></ion-icon>
+                <button class="icon">Resume membership</button>
+                <button class="icon" id="icon_profile">D</button>
+            </div>
+        </div>
+        <!--homepage-->
+        <div class="homepage">
+            <!--leftpage-->
+            <div class="leftpage">
+                <div class="topleftpage">
+                    <div class="following">
+                        <span>FOLLOWING</span>
+                    </div>
+                    <div class="recommended">
+                        <span>RECOMMENDED FOR YOU</span>
+                    </div>
+                </div>
+                <div class="news_box">
+                    <div class="description_news_box">
+                        <div class="user_news_box">
+                            <img src="pictures/photo1.jpeg" alt="user">
+                            <a href="https://medium.com/">Brian Miller</a>
+                            <span>in</span>
+                            <a href="https://medium.com/">Videogames</a>
+                        </div>
+                        <div class="title_news_box">
+                            <h3>Baldur's Gate 3 sarà presto disponibile anche su Xbox Series X e Series S - Abbiamo finalmente una data di uscita?</h3>
+                            <p>I fan dei giochi di ruolo fantasy sono impazienti per l'arrivo di Baldur's Gate 3 su piattaforme Xbox. Potrebbe essere emersa la data di uscita.</p>
+                        </div>
+                        <div class="details_news_box">
+                            <div class="info_news_box">
+                                <p>Nov 3 <span>•</span> 2 min read <span>•</span> <span id="react">React</span> <span>•</span> Popular on Medium</p>
+                            </div>
+                            <div class="items_news_box">
+                                <ion-icon class="icons_news_box" name="bookmark-outline"></ion-icon>
+                                <ion-icon class="icons_news_box" name="ellipsis-horizontal-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="photo_news_box">
+                        <img src="pictures/baldursgate.jpeg" alt="baldursgate">
+                    </div>
+                </div>
+                <div class="news_box">
+                    <div class="description_news_box">
+                        <div class="user_news_box">
+                            <img src="pictures/photo4gun.webp" alt="user">
+                            <a href="https://medium.com/">James Gunn</a>
+                        </div>
+                        <div class="title_news_box">
+                            <h3>Guardiani della Galassia Vol. 3: James e Sean Gunn rispondono alle domande del web!</h3>
+                            <p>I due fratelli si raccontano.</p>
+                        </div>
+                        <div class="details_news_box">
+                            <div class="info_news_box">
+                                <p>Nov 2 <span>•</span> 3 min read <span>•</span> <span id="react">React</span> <span>•</span> Popular on Medium</p>
+                            </div>
+                            <div class="items_news_box">
+                                <ion-icon class="icons_news_box" name="bookmark-outline"></ion-icon>
+                                <ion-icon class="icons_news_box" name="ellipsis-horizontal-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="photo_news_box">
+                        <img src="pictures/guardiani-della-galassia-3_euf7.jpg" alt="guardianidellagalassia">
+                    </div>
+                </div>
+                <div class="news_box">
+                    <div class="description_news_box">
+                        <div class="user_news_box">
+                            <img src="pictures/photo3.jpeg" alt="user">
+                            <a href="https://medium.com/">Thomas Anderson</a>
+                            <span>in</span>
+                            <a href="https://medium.com/">InfoTech</a>
+                        </div>
+                        <div class="title_news_box">
+                            <h3>Il frate scelto dall’Onu: “L’intelligenza artificiale non deve spaventarci”</h3>
+                            <p>Il teologo francescano Paolo Benanti e lo sviluppo tecnologico: “Temo più la stupidità naturale, gli algoritmi possono aiutarci”.</p>
+                        </div>
+                        <div class="details_news_box">
+                            <div class="info_news_box">
+                                <p>Nov 1 <span>•</span> 7 min read <span>•</span> <span id="react">React</span> <span>•</span> Popular on Medium</p>
+                            </div>
+                            <div class="items_news_box">
+                                <ion-icon class="icons_news_box" name="bookmark-outline"></ion-icon>
+                                <ion-icon class="icons_news_box" name="ellipsis-horizontal-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="photo_news_box">
+                        <img src="pictures/intelligenzaartificiale.webp" alt="ia_photo">
+                    </div>
+                </div>
+                <div class="news_box">
+                    <div class="description_news_box">
+                        <div class="user_news_box">
+                            <img src="pictures/gordon-ramsay-646367718a5f4.jpg" alt="user">
+                            <a href="https://medium.com/">Gordon Ramsay</a>
+                            <span>in</span>
+                            <a href="https://medium.com/">TasteFood</a>
+                        </div>
+                        <div class="title_news_box">
+                            <h3>Domande e risposte: A Gordon Ramsay non piaceva niente del cibo dell'UBC tranne quello di McDonald's</h3>
+                            <p>Il noto gastronomo e personaggio televisivo Gordon Ramsay è venuto alla UBC per un'ispezione a sorpresa dei ristoranti del campus.</p>
+                        </div>
+                        <div class="details_news_box">
+                            <div class="info_news_box">
+                                <p>Oct 31 <span>•</span> 5 min read <span>•</span> <span id="react">React</span> <span>•</span> Popular on Medium</p>
+                            </div>
+                            <div class="items_news_box">
+                                <ion-icon class="icons_news_box" name="bookmark-outline"></ion-icon>
+                                <ion-icon class="icons_news_box" name="ellipsis-horizontal-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="photo_news_box">
+                        <img src="pictures/mcdonalds-fast-food-shutterstock.jpg" alt="mcdonalds_photo">
+                    </div>
+                </div>
+                <div class="news_box">
+                    <div class="description_news_box">
+                        <div class="user_news_box">
+                            <img src="pictures/photo5.jpeg" alt="user">
+                            <a href="https://medium.com/">Michael Harris</a>
+                            <span>in</span>
+                            <a href="https://medium.com/">Attualità</a>
+                        </div>
+                        <div class="title_news_box">
+                            <h3>Come funzionano le app di allerta missili in Israele</h3>
+                            <p>Home front command, è l’applicazione ufficiale del governo israeliano che avverte degli attacchi missilistici ancora prima del suono delle sirene.</p>
+                        </div>
+                        <div class="details_news_box">
+                            <div class="info_news_box">
+                                <p>Oct 31 <span>•</span> 11 min read <span>•</span> <span id="react">React</span> <span>•</span> Popular on Medium</p>
+                            </div>
+                            <div class="items_news_box">
+                                <ion-icon class="icons_news_box" name="bookmark-outline"></ion-icon>
+                                <ion-icon class="icons_news_box" name="ellipsis-horizontal-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="photo_news_box">
+                        <img src="pictures/isrealepalestina.avif" alt="bandiere_israele_palestina">
+                    </div>
+                </div>
+                <div class="news_box">
+                    <div class="description_news_box">
+                        <div class="user_news_box">
+                            <img src="pictures/photo2.jpeg" alt="user">
+                            <a href="https://medium.com/">Jessica Williams</a>
+                            <span>in</span>
+                            <a href="https://medium.com/">Cinema</a>
+                        </div>
+                        <div class="title_news_box">
+                            <h3>I migliori film horror da guardare ad Halloween su Netflix, Prime Video e Disney+</h3>
+                            <p>Volete passare Halloween in compagnia di un buon film dell'orrore?</p>
+                        </div>
+                        <div class="details_news_box">
+                            <div class="info_news_box">
+                                <p>Oct 30 <span>•</span> 4 min read <span>•</span> <span id="react">React</span> <span>•</span> Popular on Medium</p>
+                            </div>
+                            <div class="items_news_box">
+                                <ion-icon class="icons_news_box" name="bookmark-outline"></ion-icon>
+                                <ion-icon class="icons_news_box" name="ellipsis-horizontal-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="photo_news_box">
+                        <img src="pictures/halloween.jpg" alt="halloween">
+                    </div>
+                </div>
+            </div>
+            <!--rightpage-->
+            <div class="rightpage">
+                <div class="stickyrp">
+                <div class="connectx">
+                    <div class="logos_connectx">
+                        <img id="medium_icon_connectx" src="pictures/medium-icon.svg" alt="medium_logo"/>
+                        <span>+</span>
+                        <img src="pictures/x_icon_logo2023.svg" alt="x_logo"/>
+                    </div>
+                    <div class="discover_connectx">
+                        <p>Discover Medium writers you already follow on X.</p>
+                    </div>
+                    <div class="button_connectx">
+                        <button><img src="pictures/x_icon_logo2023.svg" alt="x_logo"/><span>Connect to X</span></button>
+                    </div>
+                    <div class="maybe_connectx">
+                        <a href="https://medium.com/">Maybe Later</a>
+                    </div>
+                </div>
+                <div class="recommended_rightpage">
+                    <div class="recommended_rightpage_title">
+                        <h4>Recommended topics</h4>
+                    </div>
+                    <div class="recommended_rightpage_topics">
+                        <button><span>Technology</span></button>
+                        <button><span>Money</span></button>
+                        <button><span>Business</span></button>
+                        <button><span>Productivity</span></button>
+                        <button><span>Psychology</span></button>
+                        <button><span>Mindfulness</span></button>
+                        <button><span>Art</span></button>
+                    </div>
+                </div>
+                <div class="whotofollow">
+                    <div class="whotofollow_title">
+                        <h4>Who to follow</h4>
+                    </div>
+                    <div class="wf_user_container">
+                        <div class="wf_user_profile">
+                            <div class="wf_up_photo">
+                                <img src="pictures/user1.jpeg" alt="userpic"/>
+                            </div>
+                            <div class="wf_up_name">
+                                <h5>Lorelai Brown</h5>
+                                <p>Scrittrice.</p>
+                            </div>
+                            <div class="wf_up_follow">
+                                <button>Follow</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wf_user_container">
+                        <div class="wf_user_profile">
+                            <div class="wf_up_photo">
+                                <img src="pictures/user2.avif" alt="userpic"/>
+                            </div>
+                            <div class="wf_up_name">
+                                <h5>Matthew Scott</h5>
+                                <p>Giornalista, scrittore.</p>
+                            </div>
+                            <div class="wf_up_follow">
+                                <button>Follow</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wf_user_container">
+                        <div class="wf_user_profile">
+                            <div class="wf_up_photo">
+                                <img src="pictures/user3.jpg" alt="userpic"/>
+                            </div>
+                            <div class="wf_up_name">
+                                <h5>Will Davis</h5>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet dolor excepturi atque deleniti voluptate voluptatum voluptatem, aperiam perferendis rerum quia officiis sapiente, ipsum nulla quo quas soluta velit minus dolore!</p>
+                            </div>
+                            <div class="wf_up_follow">
+                                <button>Follow</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="recently">
+                    <div class="recently_title">
+                        <h4>Recently saved</h4>
+                    </div>
+                    <div class="description_save_box">
+                        <div class="user_save_box">
+                            <img src="pictures/photo1.jpeg" alt="user">
+                            <a href="https://medium.com/">Brian Miller</a>
+                            <span>in</span>
+                            <a href="https://medium.com/">Videogames</a>
+                        </div>
+                        <div class="title_save_box">
+                            <h3>Baldur's Gate 3 sarà presto disponibile anche su Xbox Series X e Series S</h3>
+                        </div>
+                        <div class="details_save_box">
+                            <div class="info_save_box">
+                                <p>Nov 3, 2023 <span>•</span> 2 min read <ion-icon id="star_icon" name="star-outline"></ion-icon></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description_save_box">
+                        <div class="user_save_box">
+                            <img src="pictures/photo2.jpeg" alt="user">
+                            <a href="https://medium.com/">Jessica Williams</a>
+                            <span>in</span>
+                            <a href="https://medium.com/">Cinema</a>
+                        </div>
+                        <div class="title_save_box">
+                            <h3>I migliori film horror da guardare ad Halloween su Netflix, Prime Video e Disney+</h3>
+                        </div>
+                        <div class="details_save_box">
+                            <div class="info_save_box">
+                                <p>Oct 30, 2023 <span>•</span> 4 min read</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="seeall">
+                        <a href="https://medium.com/">See all (3)</a>
+                    </div>
+                </div> 
+                <div class="endpage">
+                    <a href="https://medium.com/">Help</a>
+                    <a href="https://medium.com/">Status</a>
+                    <a href="https://medium.com/">Writers</a>
+                    <a href="https://medium.com/">Blog</a>
+                    <a href="https://medium.com/">Careers</a>
+                    <a href="https://medium.com/">Privacy</a>
+                    <a href="https://medium.com/">Terms</a>
+                    <a href="https://medium.com/">About</a>
+                </div>
+                </div>   
+            </div>
+        </div>
+    </main>
+</body>
+</html>
